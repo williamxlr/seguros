@@ -2,9 +2,9 @@ import pymssql
 
 # Conectar a SQL Server utilizando pymssql
 conn = pymssql.connect(
-    server="LAPTOP-O07NV287",  # Dirección del servidor
-    user="williamxlr",         # Nombre de usuario
-    password="Al3xW$1978",     # Contraseña
+    server="",  # Dirección del servidor
+    user="",         # Nombre de usuario
+    password="",     # Contraseña
     database="monokera"        # Nombre de la base de datos
 )
 
