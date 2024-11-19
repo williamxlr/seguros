@@ -134,9 +134,9 @@ data_policy = data_policy.withColumnRenamed("id", "policy_number")
 
 # Conectar a SQL Server utilizando pymssql
 conn = pymssql.connect(
-    server="LAPTOP-O07NV287",  # Dirección del servidor
-    user="williamxlr",         # Nombre de usuario
-    password="Al3xW$1978",     # Contraseña
+    server="xxxxxx",  # Dirección del servidor
+    user="xxxxx",         # Nombre de usuario
+    password="xxxxx",     # Contraseña
     database="monokera"        # Nombre de la base de datos
 )
 
